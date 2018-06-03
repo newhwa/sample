@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+route::get('/', 'StaticPagesController@home');
+route::get('/about', 'StaticPagesController@about');
+route::get('/help', 'StaticPagesController@help');
